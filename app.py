@@ -4,6 +4,7 @@ from __future__ import absolute_import, unicode_literals
 from flask import Flask, jsonify, send_file
 from celery import Celery
 from create_celery import make_celery
+from plot_bar import plot_bars
 import subprocess
 import pandas as pd
 import matplotlib.pyplot as plt
