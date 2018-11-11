@@ -39,7 +39,7 @@ def get_count_plot():
 # Celery tasks 
 @celery.task(name='create_celery.get_noun_count')
 def get_noun_count(file_path):
-    df = read_to_df(file_path)
+    df, rows = read_to_df(file_path)  # although rows is not used here, it should be passed as the second argument to plot_bars()
     tot_count, dict_of_rowcount = count_pronouns(df, pronouns, row_dict)
     print('Number of pronouns: ', tot_count)
     return tot_count
@@ -64,7 +64,8 @@ def read_to_df(directory):
         print(df_stripped)
         my_df = my_df.append(df_stripped)
         print(my_df)
-    return my_df
+    rows = len(my_df.index)
+    return my_df, rows
 
 
 def count_pronouns(df, words_total, words_row):
