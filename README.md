@@ -6,7 +6,7 @@ Cloud computing lab3
  - This project is written in Python 3.6.
  - Plot bars is not implemented here but it works and only needs the following in the main function to produce the plot               locally: 
  - Just create a Data folder in the working directory where you add the files you want to use.
- -The requirements file is bigger than it needs to be. Just a heads up!
+ - The requirements file is bigger than it needs to be. Just a heads up!
  
  ```python
  def main(file_path): 
