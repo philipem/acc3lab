@@ -69,6 +69,6 @@ unicodecsv==0.14.1
 urllib3==1.13.1
 vine==1.1.4
 warlock==1.1.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 wrapt==1.10.11
                                                                                                                                                                                                                                                              
