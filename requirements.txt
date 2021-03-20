@@ -3,7 +3,7 @@ html5lib==0.999
 idna==2.7
 iso8601==0.1.12
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 jsonpatch==1.10
 jsonpointer==1.9
 jsonschema==2.5.1
