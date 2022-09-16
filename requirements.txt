@@ -27,7 +27,7 @@ os-client-config==1.16.0
 oslo.config==3.9.0
 oslo.i18n==3.22.1
 oslo.serialization==2.4.0
-oslo.utils==3.37.1
+oslo.utils==4.10.1
 pandas==0.23.4
 pbr==5.1.1
 Pillow==3.1.2
